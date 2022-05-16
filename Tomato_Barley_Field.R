@@ -1,11 +1,11 @@
 ## Mean probing duration (Nonviruliferous BLH)
-NPro_B=939
-NPro_T=1039
+NPro_B=939/86400
+NPro_T=1039/86400
 NPro=NPro_B+NPro_T
 
 ## Mean probing duration (Viruliferous BLH)
-VPro_B=473
-VPro_T=1295
+VPro_B=473/86400
+VPro_T=1295/86400
 VPro=VPro_B+VPro_T
 
 ## Relative proging preference (Nonviruliferous BLH)
@@ -20,7 +20,7 @@ VBT_B=0.47
 VtoN=VtoV=NtoV=NtoN=0.5
 
 # Transmission rate
-prob=0.5
+prob=0.38
 
 # Tomato composition (10 to 100%)
 composition=seq(0.1,1,0.05)
